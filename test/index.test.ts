@@ -1,7 +1,11 @@
-import { describe, expect, it } from 'vitest'
+import { describe, it } from 'vitest'
+import  iterativelyWalk  from '../src/index'
 
 describe('should', () => {
   it('exported', () => {
-    expect(1).toEqual(1)
+    const element = document.createElement("div");
+    iterativelyWalk(element,function (node:any){
+      console.log("node", node)
+    })
   })
 })
