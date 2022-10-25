@@ -1,14 +1,15 @@
 {
-  "name": "tiem-mini",
+  "name": "@elonehoo/dom-traversal",
   "version": "0.0.0",
   "license": "MIT",
   "author": "Elone Hoo <huchengyea@163.com>",
+  "description": "Iteratively walk any DOM node.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elonehoo/titem-mini"
+    "url": "git+https://github.com/elonehoo/dom-traversal"
   },
-  "homepage": "https://github.com/elonehoo/titem-mini#readme",
-  "bugs": "https://github.com/elonehoo/titem-mini/issues",
+  "homepage": "https://github.com/elonehoo/dom-traversal#readme",
+  "bugs": "https://github.com/elonehoo/dom-traversal/issues",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
