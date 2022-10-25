@@ -7,7 +7,7 @@ import  iterativelyWalk  from '../src/index'
 describe('should', () => {
   it('exported', () => {
     const element = document.createElement("div");
-    iterativelyWalk(element,function (node:any){
+    iterativelyWalk(element,function (node:Node){
       console.log("node", node)
     })
   })
