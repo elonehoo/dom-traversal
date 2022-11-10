@@ -1,10 +1,10 @@
 {
   "name": "@elonehoo/dom-traversal",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "author": "Elone Hoo <huchengyea@163.com>",
   "description": "Iteratively walk any DOM node.",
-  "type":"module",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/elonehoo/dom-traversal"
