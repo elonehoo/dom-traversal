@@ -1,5 +1,9 @@
 # dom-traversal
 
+[![NPM version](https://img.shields.io/npm/v/@elonehoo/dom-traversal?color=a1b858&label=)](https://www.npmjs.com/package/@elonehoo/dom-traversal)
+
+> Iteratively walk any DOM node.
+
 ## Install
 
 ```bash
