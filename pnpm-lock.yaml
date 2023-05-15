@@ -8,8 +8,8 @@ devDependencies:
     specifier: ^0.0.1
     version: 0.0.1
   '@types/node':
-    specifier: 18.16.5
-    version: 18.16.5
+    specifier: 18.16.9
+    version: 18.16.9
   '@vitest/coverage-c8':
     specifier: ^0.31.0
     version: 0.31.0(vitest@0.31.0)
@@ -23,11 +23,11 @@ devDependencies:
     specifier: 8.40.0
     version: 8.40.0
   happy-dom:
-    specifier: ^9.10.9
-    version: 9.10.9
+    specifier: ^9.18.3
+    version: 9.18.3
   pnpm:
-    specifier: 8.4.0
-    version: 8.4.0
+    specifier: 8.5.1
+    version: 8.5.1
   typescript:
     specifier: 5.0.4
     version: 5.0.4
@@ -36,10 +36,10 @@ devDependencies:
     version: 1.2.1
   vite:
     specifier: 4.3.5
-    version: 4.3.5(@types/node@18.16.5)
+    version: 4.3.5(@types/node@18.16.9)
   vitest:
     specifier: 0.31.0
-    version: 0.31.0(happy-dom@9.10.9)
+    version: 0.31.0(happy-dom@9.18.3)
 
 packages:
 
@@ -806,8 +806,8 @@ packages:
       '@types/unist': 2.0.6
     dev: true
 
-  /@types/node@18.16.5:
-    resolution: {integrity: sha512-seOA34WMo9KB+UA78qaJoCO20RJzZGVXQ5Sh6FWu0g/hfT44nKXnej3/tCQl7FL97idFpBhisLYCTB50S0EirA==}
+  /@types/node@18.16.9:
+    resolution: {integrity: sha512-IeB32oIV4oGArLrd7znD2rkHQ6EDCM+2Sr76dJnrHwv9OHBTTM6nuDLK9bmikXzPa0ZlWMWtRGo/Uw4mrzQedA==}
     dev: true
 
   /@types/normalize-package-data@2.4.1:
@@ -966,7 +966,7 @@ packages:
       magic-string: 0.30.0
       picocolors: 1.0.0
       std-env: 3.3.2
-      vitest: 0.31.0(happy-dom@9.10.9)
+      vitest: 0.31.0(happy-dom@9.18.3)
     dev: true
 
   /@vitest/expect@0.31.0:
@@ -2326,11 +2326,11 @@ packages:
     resolution: {integrity: sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==}
     dev: true
 
-  /happy-dom@9.10.9:
-    resolution: {integrity: sha512-3RnOyu6buPMpDAyOpp8yfR5Xi/k2p5MhrDwlG/dgpVHkptFN5IqubdbGOQU5luB7ANh6a08GOuiB+Bo9JCzCBw==}
+  /happy-dom@9.18.3:
+    resolution: {integrity: sha512-b7iMGYeIXvUryNultA0AHEVU0FPpb2djJ/xSVlMDfP7HG4z7FomdqkCEpWtSv1zDL+t1gRUoBbpqFCoUBvjYtg==}
     dependencies:
       css.escape: 1.5.1
-      he: 1.2.0
+      entities: 4.5.0
       iconv-lite: 0.6.3
       webidl-conversions: 7.0.0
       whatwg-encoding: 2.0.0
@@ -2379,11 +2379,6 @@ packages:
     engines: {node: '>= 0.4.0'}
     dependencies:
       function-bind: 1.1.1
-    dev: true
-
-  /he@1.2.0:
-    resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
-    hasBin: true
     dev: true
 
   /hookable@5.5.3:
@@ -3173,8 +3168,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm@8.4.0:
-    resolution: {integrity: sha512-oW5jpFgCmXHIVOU5HZLBWGBtCH7K4JSRdpk7/f+Dtp+KhUsX5NQaWzzYyU9TX7eAsfYMko179133gbUS+JTrMw==}
+  /pnpm@8.5.1:
+    resolution: {integrity: sha512-W6elL7Nww0a/MCICkzpkbxW6f99TQuX4DuJoDjWp39X08PKDkEpg4cgj3d6EtgYADcdQWl/eM8NdlLJVE3RgpA==}
     engines: {node: '>=16.14'}
     hasBin: true
     dev: true
@@ -3791,7 +3786,7 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-node@0.31.0(@types/node@18.16.5):
+  /vite-node@0.31.0(@types/node@18.16.9):
     resolution: {integrity: sha512-8x1x1LNuPvE2vIvkSB7c1mApX5oqlgsxzHQesYF7l5n1gKrEmrClIiZuOFbFDQcjLsmcWSwwmrWrcGWm9Fxc/g==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -3801,7 +3796,7 @@ packages:
       mlly: 1.2.0
       pathe: 1.1.0
       picocolors: 1.0.0
-      vite: 4.3.5(@types/node@18.16.5)
+      vite: 4.3.5(@types/node@18.16.9)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -3812,7 +3807,7 @@ packages:
       - terser
     dev: true
 
-  /vite@4.3.5(@types/node@18.16.5):
+  /vite@4.3.5(@types/node@18.16.9):
     resolution: {integrity: sha512-0gEnL9wiRFxgz40o/i/eTBwm+NEbpUeTWhzKrZDSdKm6nplj+z4lKz8ANDgildxHm47Vg8EUia0aicKbawUVVA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -3837,7 +3832,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.16.5
+      '@types/node': 18.16.9
       esbuild: 0.17.16
       postcss: 8.4.23
       rollup: 3.21.2
@@ -3845,7 +3840,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest@0.31.0(happy-dom@9.10.9):
+  /vitest@0.31.0(happy-dom@9.18.3):
     resolution: {integrity: sha512-JwWJS9p3GU9GxkG7eBSmr4Q4x4bvVBSswaCFf1PBNHiPx00obfhHRJfgHcnI0ffn+NMlIh9QGvG75FlaIBdKGA==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -3878,7 +3873,7 @@ packages:
     dependencies:
       '@types/chai': 4.3.4
       '@types/chai-subset': 1.3.3
-      '@types/node': 18.16.5
+      '@types/node': 18.16.9
       '@vitest/expect': 0.31.0
       '@vitest/runner': 0.31.0
       '@vitest/snapshot': 0.31.0
@@ -3890,7 +3885,7 @@ packages:
       chai: 4.3.7
       concordance: 5.0.4
       debug: 4.3.4
-      happy-dom: 9.10.9
+      happy-dom: 9.18.3
       local-pkg: 0.4.3
       magic-string: 0.30.0
       pathe: 1.1.0
@@ -3899,8 +3894,8 @@ packages:
       strip-literal: 1.0.1
       tinybench: 2.4.0
       tinypool: 0.5.0
-      vite: 4.3.5(@types/node@18.16.5)
-      vite-node: 0.31.0(@types/node@18.16.5)
+      vite: 4.3.5(@types/node@18.16.9)
+      vite-node: 0.31.0(@types/node@18.16.9)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
