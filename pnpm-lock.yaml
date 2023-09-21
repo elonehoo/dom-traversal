@@ -27,8 +27,8 @@ devDependencies:
     specifier: 8.45.0
     version: 8.45.0
   happy-dom:
-    specifier: ^10.5.2
-    version: 10.5.2
+    specifier: ^12.1.5
+    version: 12.1.5
   pnpm:
     specifier: 8.6.9
     version: 8.6.9
@@ -43,7 +43,7 @@ devDependencies:
     version: 4.4.6(@types/node@20.4.4)
   vitest:
     specifier: 0.33.0
-    version: 0.33.0(happy-dom@10.5.2)
+    version: 0.33.0(happy-dom@12.1.5)
 
 packages:
 
@@ -1263,7 +1263,7 @@ packages:
       magic-string: 0.30.1
       picocolors: 1.0.0
       std-env: 3.3.3
-      vitest: 0.33.0(happy-dom@10.5.2)
+      vitest: 0.33.0(happy-dom@12.1.5)
     dev: true
 
   /@vitest/expect@0.33.0:
@@ -2482,8 +2482,8 @@ packages:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
     dev: true
 
-  /happy-dom@10.5.2:
-    resolution: {integrity: sha512-dTA1cDcLOPIkAdykLd9Wo1k8Ly36Hh2OdKGkWEHWuAHb89KcVVRLSj1OFev7ir90xhRLSGCGrEdDvS6u9l13kg==}
+  /happy-dom@12.1.5:
+    resolution: {integrity: sha512-JpeqFplyl4QymbIzMlbFyPmBgVuQsplHi98GX0s2Kmks0d946KgPtsHgqbkP+Tu1vNYAIrppIPOiCQgNY8CT+Q==}
     dependencies:
       css.escape: 1.5.1
       entities: 4.5.0
@@ -3012,7 +3012,7 @@ packages:
     resolution: {integrity: sha512-/5CMN3T0R4XTj4DcGaexo+roZSdSFW/0AOOTROrjxzCG1wrWXEsGbRKevjlIL+ZDE4sZlJr5ED4YW0yqmkK+eA==}
     dependencies:
       hosted-git-info: 2.8.9
-      resolve: 1.22.2
+      resolve: 1.22.3
       semver: 5.7.2
       validate-npm-package-license: 3.0.4
     dev: true
@@ -3790,7 +3790,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest@0.33.0(happy-dom@10.5.2):
+  /vitest@0.33.0(happy-dom@12.1.5):
     resolution: {integrity: sha512-1CxaugJ50xskkQ0e969R/hW47za4YXDUfWJDxip1hwbnhUjYolpfUn2AMOulqG/Dtd9WYAtkHmM/m3yKVrEejQ==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -3834,7 +3834,7 @@ packages:
       cac: 6.7.14
       chai: 4.3.7
       debug: 4.3.4
-      happy-dom: 10.5.2
+      happy-dom: 12.1.5
       local-pkg: 0.4.3
       magic-string: 0.30.1
       pathe: 1.1.1
