@@ -41,6 +41,7 @@
     "@elonehoo/rimraf": "^0.0.1",
     "@types/node": "20.6.3",
     "@vitest/coverage-c8": "^0.33.0",
+    "@vitest/coverage-v8": "^0.34.4",
     "bumpp": "9.2.0",
     "c8": "^8.0.1",
     "eslint": "8.49.0",
