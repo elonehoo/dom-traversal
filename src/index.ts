@@ -1,6 +1,6 @@
 const slice = Array.prototype.slice
 
-function iterativelyWalk(nodes: any, cb: Function) {
+function iterativelyWalk(nodes: any, cb: any) {
   if (!('length' in nodes))
     nodes = [nodes]
 
