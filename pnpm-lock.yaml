@@ -30,8 +30,8 @@ devDependencies:
     specifier: 8.57.0
     version: 8.57.0
   happy-dom:
-    specifier: ^13.10.1
-    version: 13.10.1
+    specifier: ^14.3.9
+    version: 14.3.9
   pnpm:
     specifier: 8.15.5
     version: 8.15.5
@@ -46,7 +46,7 @@ devDependencies:
     version: 5.2.6(@types/node@20.11.30)
   vitest:
     specifier: 1.4.0
-    version: 1.4.0(@types/node@20.11.30)(happy-dom@13.10.1)
+    version: 1.4.0(@types/node@20.11.30)(happy-dom@14.3.9)
 
 packages:
 
@@ -1796,7 +1796,7 @@ packages:
       magic-string: 0.30.5
       picocolors: 1.0.0
       std-env: 3.5.0
-      vitest: 1.4.0(@types/node@20.11.30)(happy-dom@13.10.1)
+      vitest: 1.4.0(@types/node@20.11.30)(happy-dom@14.3.9)
     dev: true
 
   /@vitest/coverage-v8@1.4.0(vitest@1.4.0):
@@ -1818,7 +1818,7 @@ packages:
       strip-literal: 2.0.0
       test-exclude: 6.0.0
       v8-to-istanbul: 9.2.0
-      vitest: 1.4.0(@types/node@20.11.30)(happy-dom@13.10.1)
+      vitest: 1.4.0(@types/node@20.11.30)(happy-dom@14.3.9)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1868,7 +1868,7 @@ packages:
       '@babel/parser': 7.23.6
       '@vue/shared': 3.3.11
       estree-walker: 2.0.2
-      source-map-js: 1.0.2
+      source-map-js: 1.2.0
     dev: true
 
   /@vue/compiler-dom@3.3.11:
@@ -1889,8 +1889,8 @@ packages:
       '@vue/shared': 3.3.11
       estree-walker: 2.0.2
       magic-string: 0.30.5
-      postcss: 8.4.35
-      source-map-js: 1.0.2
+      postcss: 8.4.38
+      source-map-js: 1.2.0
     dev: true
 
   /@vue/compiler-ssr@3.3.11:
@@ -2805,7 +2805,7 @@ packages:
       '@typescript-eslint/eslint-plugin': 7.3.1(@typescript-eslint/parser@7.3.1)(eslint@8.57.0)(typescript@5.4.3)
       '@typescript-eslint/utils': 7.1.1(eslint@8.57.0)(typescript@5.4.3)
       eslint: 8.57.0
-      vitest: 1.4.0(@types/node@20.11.30)(happy-dom@13.10.1)
+      vitest: 1.4.0(@types/node@20.11.30)(happy-dom@14.3.9)
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -3254,8 +3254,8 @@ packages:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
     dev: true
 
-  /happy-dom@13.10.1:
-    resolution: {integrity: sha512-9GZLEFvQL5EgfJX2zcBgu1nsPUn98JF/EiJnSfQbdxI6YEQGqpd09lXXxOmYonRBIEFz9JlGCOiPflDzgS1p8w==}
+  /happy-dom@14.3.9:
+    resolution: {integrity: sha512-0kPQchwthekcYpYN8CvCiq+/z5bqFYDLbTxZ+yDLwT8AFRVJDFadShHRxp3VAZRy7a5isOZ1j/LzsU1dtAIZMQ==}
     engines: {node: '>=16.0.0'}
     dependencies:
       entities: 4.5.0
@@ -4062,15 +4062,6 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /postcss@8.4.35:
-    resolution: {integrity: sha512-u5U8qYpBCpN13BsiEB0CbR1Hhh4Gc0zLFuedrHJKMctHCHAGrMdG0PRM/KErzAL3CU6/eckEtmHNB3x6e3c0vA==}
-    engines: {node: ^10 || ^12 || >=14}
-    dependencies:
-      nanoid: 3.3.7
-      picocolors: 1.0.0
-      source-map-js: 1.0.2
-    dev: true
-
   /postcss@8.4.38:
     resolution: {integrity: sha512-Wglpdk03BSfXkHoQa3b/oulrotAkwrlLDRSOb9D0bN86FdRyE9lppSp33aHNPgBa0JKCoB+drFLZkQoRRYae5A==}
     engines: {node: ^10 || ^12 || >=14}
@@ -4721,7 +4712,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@1.4.0(@types/node@20.11.30)(happy-dom@13.10.1):
+  /vitest@1.4.0(@types/node@20.11.30)(happy-dom@14.3.9):
     resolution: {integrity: sha512-gujzn0g7fmwf83/WzrDTnncZt2UiXP41mHuFYFrdwaLRVQ6JYQEiME2IfEjU3vcFL3VKa75XhI3lFgn+hfVsQw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -4756,7 +4747,7 @@ packages:
       chai: 4.3.10
       debug: 4.3.4
       execa: 8.0.1
-      happy-dom: 13.10.1
+      happy-dom: 14.3.9
       local-pkg: 0.5.0
       magic-string: 0.30.5
       pathe: 1.1.2
