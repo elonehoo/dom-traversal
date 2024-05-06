@@ -30,8 +30,8 @@ devDependencies:
     specifier: 8.57.0
     version: 8.57.0
   happy-dom:
-    specifier: ^13.10.1
-    version: 13.10.1
+    specifier: ^14.8.3
+    version: 14.8.3
   pnpm:
     specifier: 8.15.7
     version: 8.15.7
@@ -46,7 +46,7 @@ devDependencies:
     version: 5.2.8(@types/node@20.12.7)
   vitest:
     specifier: 1.5.0
-    version: 1.5.0(@types/node@20.12.7)(happy-dom@13.10.1)
+    version: 1.5.0(@types/node@20.12.7)(happy-dom@14.8.3)
 
 packages:
 
@@ -1714,7 +1714,7 @@ packages:
       magic-string: 0.30.5
       picocolors: 1.0.0
       std-env: 3.5.0
-      vitest: 1.5.0(@types/node@20.12.7)(happy-dom@13.10.1)
+      vitest: 1.5.0(@types/node@20.12.7)(happy-dom@14.8.3)
     dev: true
 
   /@vitest/coverage-v8@1.5.0(vitest@1.5.0):
@@ -1735,7 +1735,7 @@ packages:
       std-env: 3.5.0
       strip-literal: 2.0.0
       test-exclude: 6.0.0
-      vitest: 1.5.0(@types/node@20.12.7)(happy-dom@13.10.1)
+      vitest: 1.5.0(@types/node@20.12.7)(happy-dom@14.8.3)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2717,7 +2717,7 @@ packages:
       '@typescript-eslint/eslint-plugin': 7.6.0(@typescript-eslint/parser@7.6.0)(eslint@8.57.0)(typescript@5.4.5)
       '@typescript-eslint/utils': 7.6.0(eslint@8.57.0)(typescript@5.4.5)
       eslint: 8.57.0
-      vitest: 1.5.0(@types/node@20.12.7)(happy-dom@13.10.1)
+      vitest: 1.5.0(@types/node@20.12.7)(happy-dom@14.8.3)
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -3153,8 +3153,8 @@ packages:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
     dev: true
 
-  /happy-dom@13.10.1:
-    resolution: {integrity: sha512-9GZLEFvQL5EgfJX2zcBgu1nsPUn98JF/EiJnSfQbdxI6YEQGqpd09lXXxOmYonRBIEFz9JlGCOiPflDzgS1p8w==}
+  /happy-dom@14.8.3:
+    resolution: {integrity: sha512-O+iZi3MvCzq209AaflvCnD2OKApYa45aK/pdByjB0kZ41jdyAbP0pl38VfMRWPBCMeBqyzcY1uplObuLMjNHng==}
     engines: {node: '>=16.0.0'}
     dependencies:
       entities: 4.5.0
@@ -4618,7 +4618,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@1.5.0(@types/node@20.12.7)(happy-dom@13.10.1):
+  /vitest@1.5.0(@types/node@20.12.7)(happy-dom@14.8.3):
     resolution: {integrity: sha512-d8UKgR0m2kjdxDWX6911uwxout6GHS0XaGH1cksSIVVG8kRlE7G7aBw7myKQCvDI5dT4j7ZMa+l706BIORMDLw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -4653,7 +4653,7 @@ packages:
       chai: 4.3.10
       debug: 4.3.4
       execa: 8.0.1
-      happy-dom: 13.10.1
+      happy-dom: 14.8.3
       local-pkg: 0.5.0
       magic-string: 0.30.5
       pathe: 1.1.2
