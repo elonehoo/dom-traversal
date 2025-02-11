@@ -36,8 +36,8 @@ importers:
         specifier: ^15.11.7
         version: 15.11.7
       pnpm:
-        specifier: 9.15.1
-        version: 9.15.1
+        specifier: 10.3.0
+        version: 10.3.0
       typescript:
         specifier: 5.7.2
         version: 5.7.2
@@ -2360,8 +2360,8 @@ packages:
     resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
     engines: {node: '>=4'}
 
-  pnpm@9.15.1:
-    resolution: {integrity: sha512-GstWXmGT7769p3JwKVBGkVDPErzHZCYudYfnHRncmKQj3/lTblfqRMSb33kP9pToPCe+X6oj1n4MAztYO+S/zw==}
+  pnpm@10.3.0:
+    resolution: {integrity: sha512-7lku2ogVqKKTwga7CRfEuw/ydMUN73y8F74F7GQfwtGwJJDOZgBhNWvQ0Sak1+suyIMOaVn7ikR1ccYx1aJELQ==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -5591,7 +5591,7 @@ snapshots:
 
   pluralize@8.0.0: {}
 
-  pnpm@9.15.1: {}
+  pnpm@10.3.0: {}
 
   postcss-calc@10.0.2(postcss@8.4.49):
     dependencies:
