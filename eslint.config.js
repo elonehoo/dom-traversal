@@ -5,5 +5,6 @@ export default antfu({
   ignore: [
     'dist',
     'public',
+    'README.md',
   ],
 })

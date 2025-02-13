@@ -20,10 +20,10 @@ pnpm install --save-dev @elonehoo/dom-traversal
 ## Usage
 
 ```typescript
-import  iterativelyWalk  from '@elonehoo/dom-traversal'
+import iterativelyWalk from '@elonehoo/dom-traversal'
 
-iterativelyWalk(document.body.childNodes,function (node:Node){
-  console.log("node", node)
+iterativelyWalk(document.body.childNodes, (node: Node) => {
+  console.log('node', node)
 })
 ```
 
