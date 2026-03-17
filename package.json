@@ -37,18 +37,18 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^7.6.1",
+    "@antfu/eslint-config": "^7.7.3",
     "@elonehoo/rimraf": "^0.0.1",
-    "@types/node": "24.11.0",
-    "@vitest/coverage-v8": "^4.0.18",
-    "bumpp": "11.0.0",
+    "@types/node": "24.12.0",
+    "@vitest/coverage-v8": "^4.1.0",
+    "bumpp": "11.0.1",
     "c8": "^11.0.0",
-    "eslint": "10.0.2",
-    "happy-dom": "^20.7.0",
-    "pnpm": "10.30.3",
+    "eslint": "10.0.3",
+    "happy-dom": "^20.8.4",
+    "pnpm": "10.32.1",
     "typescript": "5.9.3",
     "unbuild": "^3.6.1",
     "vite": "7.3.1",
-    "vitest": "4.0.18"
+    "vitest": "4.1.0"
   }
 }
