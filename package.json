@@ -43,7 +43,7 @@
     "@vitest/coverage-v8": "^4.1.0",
     "bumpp": "11.0.1",
     "c8": "^11.0.0",
-    "eslint": "10.0.3",
+    "eslint": "10.1.0",
     "happy-dom": "^20.8.4",
     "pnpm": "10.32.1",
     "typescript": "5.9.3",
