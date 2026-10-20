@@ -1,0 +1,8 @@
+minimumReleaseAgeExcludePrune: true
+trustPolicy: no-downgrade
+shellEmulator: true
+# pnpm 12 defaults strictDepBuilds to true. Approve the install scripts
+# this repo actually needs; everything else stays denied.
+allowBuilds:
+  esbuild: true
+  pnpm: true
